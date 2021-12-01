@@ -36,13 +36,14 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Sounds.cs" />
      <Compile Include="Assets\Scripts\Sounds2.cs" />
+     <Compile Include="Assets\Scripts\UInput.cs" />
+     <Compile Include="Assets\Scripts\Succes.cs" />
      <Compile Include="Assets\Scripts\RandSounds.cs" />
      <Compile Include="Assets\Scripts\ControllerSound1.cs" />
      <Compile Include="Assets\Scripts\ControllerSound2.cs" />
-     <Compile Include="Assets\Scripts\UInput.cs" />
-     <Compile Include="Assets\Scripts\Succes.cs" />
+     <Compile Include="Assets\Scripts\Sounds.cs" />
+     <Compile Include="Assets\Scripts\NewGodsController.cs" />
      <None Include="Assets\Monster SFX - 111518\Notes.txt" />
     <Reference Include="UnityEngine">
         <HintPath>E:\Unity\2020.3.16f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
