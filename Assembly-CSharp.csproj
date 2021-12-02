@@ -42,7 +42,6 @@
      <Compile Include="Assets\Scripts\RandSounds.cs" />
      <Compile Include="Assets\Scripts\ControllerSound1.cs" />
      <Compile Include="Assets\Scripts\ControllerSound2.cs" />
-     <Compile Include="Assets\Scripts\Sounds.cs" />
      <Compile Include="Assets\Scripts\NewGodsController.cs" />
      <None Include="Assets\Monster SFX - 111518\Notes.txt" />
     <Reference Include="UnityEngine">
