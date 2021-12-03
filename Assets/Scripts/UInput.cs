@@ -5,17 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class UInput : MonoBehaviour
 {
-    public RandSounds randSounds;
-    public static int codeforcheck;
-    public static int codechk2;
+    public complist complist;
 
     public Succes succes;
 
     
     public AudioSource VictorySound;
-    
 
-    public int globalcheck;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -26,22 +23,26 @@ public class UInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Keypad0))
-        {
-            randSounds.sound1.GetComponent<AudioSource>().Play();
-            codeforcheck = 1;
-            Debug.Log(codeforcheck);
-        }
-
         if (Input.GetKeyDown(KeyCode.Keypad1))
         {
-            randSounds.sound2.GetComponent<AudioSource>().Play();
-            codechk2 = 2;
-            Debug.Log(codechk2);
+            complist.bird1.GetComponent<AudioSource>().Play();
+            complist.UserList.Add(1);
         }
-        globalcheck = codeforcheck + codechk2;
 
-        compare();
+        if (Input.GetKeyDown(KeyCode.Keypad2))
+        {
+            complist.bird2.GetComponent<AudioSource>().Play();
+            complist.UserList.Add(2);        
+        }
+
+        if (Input.GetKeyDown(KeyCode.Keypad3))
+        {
+            complist.bird3.GetComponent<AudioSource>().Play();
+            complist.UserList.Add(3);
+    
+        }
+
+        //compare();
 
         
         
@@ -53,17 +54,5 @@ public class UInput : MonoBehaviour
    
     
 
-    public void compare()
-    {
-        if (randSounds.globaldef == globalcheck)
-        {
-            randSounds.Clipicker(0, 0.3f);
-            if (Input.GetKeyDown(KeyCode.Keypad7))
-            {
-                SceneManager.LoadScene(1);
-            }
-            //Debug.Log("It just works!!!");
-
-        }
-    }
+    
 }
