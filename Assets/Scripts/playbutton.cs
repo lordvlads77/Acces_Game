@@ -55,5 +55,6 @@ public class playbutton : MonoBehaviour
   public void notright()
   {
       controllerfirstlvl.videotic(1, 0.6f);
+      SceneManager.LoadScene(1);
   }
 }

@@ -37,17 +37,22 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\UInput1.cs" />
+     <Compile Include="Assets\Scripts\buttonpreglvl2.cs" />
+     <Compile Include="Assets\Scripts\playbutton.cs" />
      <Compile Include="Assets\Scripts\controllerfirstlvl.cs" />
      <Compile Include="Assets\Scripts\perder1.cs" />
      <Compile Include="Assets\Scripts\UInput.cs" />
      <Compile Include="Assets\Scripts\Succes.cs" />
      <Compile Include="Assets\Scripts\succeslvl1.cs" />
-     <Compile Include="Assets\Scripts\ControllerSound1.cs" />
-     <Compile Include="Assets\Scripts\ControllerSound2.cs" />
      <Compile Include="Assets\Scripts\puntaje.cs" />
      <Compile Include="Assets\Scripts\complist.cs" />
-     <Compile Include="Assets\Scripts\playbutton.cs" />
-     <Compile Include="Assets\Scripts\buttonpreglvl2.cs" />
+     <Compile Include="Assets\Scripts\presionarbut.cs" />
+     <Compile Include="Assets\Scripts\presionaj.cs" />
+     <Compile Include="Assets\Scripts\presionah.cs" />
+     <Compile Include="Assets\Scripts\presionaj2.cs" />
+     <Compile Include="Assets\Scripts\presionah2.cs" />
+     <Compile Include="Assets\Scripts\againquit.cs" />
+     <Compile Include="Assets\Scripts\soundctrl.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

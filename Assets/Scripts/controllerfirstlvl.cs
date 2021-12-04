@@ -12,6 +12,8 @@ public class controllerfirstlvl : MonoBehaviour
      public GameObject bird1;
     public  GameObject bird2;
 
+    public GameObject panee;
+
                                                                                                                                                                                                                                                                                                                                                                          
 
 
@@ -67,12 +69,12 @@ public class controllerfirstlvl : MonoBehaviour
         
         if (RandomList1[1] == 1)
         {
-            bird1.GetComponent<AudioSource>().PlayDelayed(1);
+            bird1.GetComponent<AudioSource>().PlayDelayed(2);
             //setnum1 = 1;
         }
         if (RandomList1[1] == 2)
         {
-            bird2.GetComponent<AudioSource>().PlayDelayed(1);
+            bird2.GetComponent<AudioSource>().PlayDelayed(2);
             //setnum2 = 2;
         }
         
@@ -94,6 +96,7 @@ public class controllerfirstlvl : MonoBehaviour
             else
             {
 
+                panee.SetActive(false);
                 SceneManager.LoadScene(0);
                 
             }

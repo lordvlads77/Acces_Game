@@ -39,11 +39,12 @@ public class buttonpreglvl2 : MonoBehaviour
       complist.videotic(0, 0.3f);
       puntaje.doublepoints();
       puntcanva.SetActive(true);
-      SceneManager.LoadScene(1);
+      SceneManager.LoadScene(2);
   }
 
   public void notright()
   {
+      SceneManager.LoadScene(3);
       complist.videotic(1, 0.6f);
   }
 }

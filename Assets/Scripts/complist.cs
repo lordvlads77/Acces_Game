@@ -51,53 +51,53 @@ public class complist : MonoBehaviour
     {
         if(RandomList[0] == 1)
         {
-            bird1.GetComponent<AudioSource>().PlayDelayed(3);
+            bird1.GetComponent<AudioSource>().PlayDelayed(10);
             //setnum1 = 1;
         }
         if(RandomList[0] == 2)
         {
-            bird2.GetComponent<AudioSource>().PlayDelayed(3);
+            bird2.GetComponent<AudioSource>().PlayDelayed(10);
             //setnum2 = 2;
             
         }
         if(RandomList[0] ==3)
         {
-            bird3.GetComponent<AudioSource>().PlayDelayed(3);
+            bird3.GetComponent<AudioSource>().PlayDelayed(10);
             //setnum3 = 3;
         }
         
         if (RandomList[1] == 1)
         {
-            bird1.GetComponent<AudioSource>().PlayDelayed(1);
+            bird1.GetComponent<AudioSource>().PlayDelayed(11);
             //setnum1 = 1;
         }
         if (RandomList[1] == 2)
         {
-            bird2.GetComponent<AudioSource>().PlayDelayed(1);
+            bird2.GetComponent<AudioSource>().PlayDelayed(11);
             //setnum2 = 2;
         }
         if (RandomList[1] == 3)
         {
-            bird3.GetComponent<AudioSource>().PlayDelayed(1);
+            bird3.GetComponent<AudioSource>().PlayDelayed(11);
             //setnum3 = 3;
             
         }
 
         if (RandomList[2] == 1)
         {
-            bird1.GetComponent<AudioSource>().PlayDelayed(2);
+            bird1.GetComponent<AudioSource>().PlayDelayed(12);
             //setnum1 =1;
             
         }
         if (RandomList[2] == 2)
         {
-            bird2.GetComponent<AudioSource>().PlayDelayed(2);
+            bird2.GetComponent<AudioSource>().PlayDelayed(12);
             //setnum2 = 2;
             
         }
         if (RandomList[2] == 3)
         {
-            bird3.GetComponent<AudioSource>().PlayDelayed(2);
+            bird3.GetComponent<AudioSource>().PlayDelayed(12);
             //setnum3 = 3;
             
         }
